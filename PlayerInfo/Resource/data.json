@@ -1,0 +1,49 @@
+{
+   "metadata":{
+      "trace_id":"eb079c37-452e-44b-83ba-e825fda489",
+      "current_user":{
+         "id":8689123,
+         "user_name":"",
+         "uri":"https://user.sportngin.com/users/8689123",
+         "first_name":"Donald",
+         "last_name":"Duck",
+         "authentication":{
+            "access_token":"123bb8374cd86b65931c"
+         }
+      }
+   },
+   "result":[
+      {
+         "id":7729333,
+         "user_id":8689123,
+         "resource_id":3248180,
+         "resource_type":"Team",
+         "my_team":true,
+         "following":true,
+         "schedule_game_only":false,
+         "resource":{
+            "id":3248180,
+            "name":"Ducks",
+            "abbrev":"Ds",
+            "sport_id":7,
+            "primary_color":"4270E3",
+            "secondary_color":"EDDC21",
+            "league_name":"Magic Kingdom",
+            "organization_name":"Team Test - Demo",
+            "permissions":{
+               "read":true,
+               "write":true,
+               "admin":true,
+               "team_center":true
+            },
+            "current_subseason":{
+               "id":584516,
+               "name":"Preseason",
+               "season_id":538616,
+               "season_name":"Spring Break 2019"
+            }
+         },
+         "show_favorite?":true
+      }
+   ]
+}

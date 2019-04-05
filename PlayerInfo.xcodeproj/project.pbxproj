@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8097CE62257A03F00958E50 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A8097CE52257A03F00958E50 /* data.json */; };
 		A89D8DF022579F2700D6D5DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D8DEF22579F2700D6D5DA /* AppDelegate.swift */; };
 		A89D8DF222579F2700D6D5DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D8DF122579F2700D6D5DA /* ViewController.swift */; };
 		A89D8DF522579F2700D6D5DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89D8DF322579F2700D6D5DA /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8097CE52257A03F00958E50 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		A89D8DEC22579F2700D6D5DA /* PlayerInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayerInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89D8DEF22579F2700D6D5DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A89D8DF122579F2700D6D5DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8097CE42257A02300958E50 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A8097CE52257A03F00958E50 /* data.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		A89D8DE322579F2700D6D5DA = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		A89D8DEE22579F2700D6D5DA /* PlayerInfo */ = {
 			isa = PBXGroup;
 			children = (
+				A8097CE42257A02300958E50 /* Resource */,
 				A89D8DEF22579F2700D6D5DA /* AppDelegate.swift */,
 				A89D8DF122579F2700D6D5DA /* ViewController.swift */,
 				A89D8DF322579F2700D6D5DA /* Main.storyboard */,
@@ -125,6 +136,7 @@
 				A89D8DFA22579F2800D6D5DA /* LaunchScreen.storyboard in Resources */,
 				A89D8DF722579F2800D6D5DA /* Assets.xcassets in Resources */,
 				A89D8DF522579F2700D6D5DA /* Main.storyboard in Resources */,
+				A8097CE62257A03F00958E50 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
