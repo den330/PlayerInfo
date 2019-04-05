@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A8097CE62257A03F00958E50 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A8097CE52257A03F00958E50 /* data.json */; };
+		A87B42672257BDB500F772E0 /* TeamInfoSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87B42662257BDB500F772E0 /* TeamInfoSB.storyboard */; };
+		A87B42692257BE5F00F772E0 /* TeamInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B42682257BE5F00F772E0 /* TeamInfoViewController.swift */; };
 		A89D8DF022579F2700D6D5DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D8DEF22579F2700D6D5DA /* AppDelegate.swift */; };
-		A89D8DF222579F2700D6D5DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D8DF122579F2700D6D5DA /* ViewController.swift */; };
+		A89D8DF222579F2700D6D5DA /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D8DF122579F2700D6D5DA /* UserInfoViewController.swift */; };
 		A89D8DF522579F2700D6D5DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89D8DF322579F2700D6D5DA /* Main.storyboard */; };
 		A89D8DF722579F2800D6D5DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A89D8DF622579F2800D6D5DA /* Assets.xcassets */; };
 		A89D8DFA22579F2800D6D5DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89D8DF822579F2800D6D5DA /* LaunchScreen.storyboard */; };
@@ -21,9 +23,11 @@
 		8FCB371B4B4C01E9D9571E20 /* Pods_PlayerInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayerInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A5126C76E30A8F56005E6D /* Pods-PlayerInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayerInfo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayerInfo/Pods-PlayerInfo.release.xcconfig"; sourceTree = "<group>"; };
 		A8097CE52257A03F00958E50 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		A87B42662257BDB500F772E0 /* TeamInfoSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TeamInfoSB.storyboard; sourceTree = "<group>"; };
+		A87B42682257BE5F00F772E0 /* TeamInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfoViewController.swift; sourceTree = "<group>"; };
 		A89D8DEC22579F2700D6D5DA /* PlayerInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayerInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89D8DEF22579F2700D6D5DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A89D8DF122579F2700D6D5DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A89D8DF122579F2700D6D5DA /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		A89D8DF422579F2700D6D5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A89D8DF622579F2800D6D5DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A89D8DF922579F2800D6D5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -90,11 +94,13 @@
 			children = (
 				A8097CE42257A02300958E50 /* Resource */,
 				A89D8DEF22579F2700D6D5DA /* AppDelegate.swift */,
-				A89D8DF122579F2700D6D5DA /* ViewController.swift */,
+				A89D8DF122579F2700D6D5DA /* UserInfoViewController.swift */,
 				A89D8DF322579F2700D6D5DA /* Main.storyboard */,
 				A89D8DF622579F2800D6D5DA /* Assets.xcassets */,
 				A89D8DF822579F2800D6D5DA /* LaunchScreen.storyboard */,
 				A89D8DFB22579F2800D6D5DA /* Info.plist */,
+				A87B42662257BDB500F772E0 /* TeamInfoSB.storyboard */,
+				A87B42682257BE5F00F772E0 /* TeamInfoViewController.swift */,
 			);
 			path = PlayerInfo;
 			sourceTree = "<group>";
@@ -160,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A89D8DFA22579F2800D6D5DA /* LaunchScreen.storyboard in Resources */,
+				A87B42672257BDB500F772E0 /* TeamInfoSB.storyboard in Resources */,
 				A89D8DF722579F2800D6D5DA /* Assets.xcassets in Resources */,
 				A89D8DF522579F2700D6D5DA /* Main.storyboard in Resources */,
 				A8097CE62257A03F00958E50 /* data.json in Resources */,
@@ -212,7 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A89D8DF222579F2700D6D5DA /* ViewController.swift in Sources */,
+				A89D8DF222579F2700D6D5DA /* UserInfoViewController.swift in Sources */,
+				A87B42692257BE5F00F772E0 /* TeamInfoViewController.swift in Sources */,
 				A89D8DF022579F2700D6D5DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
