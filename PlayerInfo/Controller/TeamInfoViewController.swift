@@ -9,30 +9,7 @@
 import UIKit
 import ObjectMapper
 
-class Team: Mappable{
-    var name: String?
-    var league_name: String?
-    var season: Season?
-    var org_name: String?
-    var abbrev: String?
-    required init?(map: Map) {}
-    
-    func mapping(map: Map) {
-        name <- map["name"]
-        league_name <- map["league_name"]
-        org_name <- map["organization_name"]
-        abbrev <- map["abbrev"]
-        season <- map["current_subseason"]
-    }
-}
 
-class Season: Mappable{
-    var season_name: String?
-    required init?(map: Map) {}
-    func mapping(map: Map) {
-        season_name <- map["season_name"]
-    }
-}
 
 class TeamInfoViewController: UIViewController {
     @IBOutlet weak var leagueNameLabel: UILabel!

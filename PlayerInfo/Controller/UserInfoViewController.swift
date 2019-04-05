@@ -9,19 +9,6 @@
 import UIKit
 import ObjectMapper
 
-class User: Mappable {
-    var first_name: String?
-    var last_name: String?
-    
-    
-    required init?(map: Map) {}
-    
-    func mapping(map: Map) {
-        first_name  <- map["first_name"]
-        last_name   <- map["last_name"]
-    }
-}
-
 class UserInfoViewController: UIViewController{
     @IBOutlet weak var firstNameLabel: UILabel!
     
